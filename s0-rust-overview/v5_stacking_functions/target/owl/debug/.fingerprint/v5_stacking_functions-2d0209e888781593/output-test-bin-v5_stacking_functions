@@ -1,0 +1,24 @@
+2025-07-18T09:44:27.590Z INFO  [rustowlc::core] start borrowck of DefId(0:3 ~ v5_stacking_functions[e52c]::main)
+2025-07-18T09:44:27.591Z INFO  [rustowlc::core::analyze] facts of DefId(0:3 ~ v5_stacking_functions[e52c]::main) prepared; start analyze of DefId(0:3 ~ v5_stacking_functions[e52c]::main)
+2025-07-18T09:44:27.591Z INFO  [rustowlc::core] borrow checked: 1 / 4
+2025-07-18T09:44:27.591Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-18T09:44:27.592Z INFO  [rustowlc::core] start borrowck of DefId(0:4 ~ v5_stacking_functions[e52c]::factorial_regular)
+2025-07-18T09:44:27.592Z INFO  [rustowlc::core::analyze] facts of DefId(0:4 ~ v5_stacking_functions[e52c]::factorial_regular) prepared; start analyze of DefId(0:4 ~ v5_stacking_functions[e52c]::factorial_regular)
+2025-07-18T09:44:27.592Z INFO  [rustowlc::core] borrow checked: 2 / 4
+2025-07-18T09:44:27.592Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-18T09:44:27.592Z INFO  [rustowlc::core] start borrowck of DefId(0:5 ~ v5_stacking_functions[e52c]::factorial_tail)
+2025-07-18T09:44:27.593Z INFO  [rustowlc::core::analyze] facts of DefId(0:5 ~ v5_stacking_functions[e52c]::factorial_tail) prepared; start analyze of DefId(0:5 ~ v5_stacking_functions[e52c]::factorial_tail)
+2025-07-18T09:44:27.593Z INFO  [rustowlc::core] borrow checked: 3 / 4
+2025-07-18T09:44:27.593Z INFO  [rustowlc::core] start borrowck of DefId(0:6 ~ v5_stacking_functions[e52c]::main#1)
+2025-07-18T09:44:27.593Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-18T09:44:27.593Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-18T09:44:27.593Z INFO  [rustowlc::core::analyze] facts of DefId(0:6 ~ v5_stacking_functions[e52c]::main#1) prepared; start analyze of DefId(0:6 ~ v5_stacking_functions[e52c]::main#1)
+2025-07-18T09:44:27.593Z INFO  [rustowlc::core] borrow checked: 4 / 4
+2025-07-18T09:44:27.593Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-18T09:44:27.593Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-18T09:44:27.593Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/my_code/v5_stacking_functions/src/main.rs
+2025-07-18T09:44:27.594Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-18T09:44:27.594Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-18T09:44:27.596Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/my_code/v5_stacking_functions/src/main.rs
+2025-07-18T09:44:27.597Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/my_code/v5_stacking_functions/src/main.rs
+2025-07-18T09:44:27.599Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/my_code/v5_stacking_functions/src/main.rs

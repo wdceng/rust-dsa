@@ -1,0 +1,18 @@
+2025-07-20T07:40:38.101Z INFO  [rustowlc::core] start borrowck of DefId(0:3 ~ v9_str_and_string[2b81]::main)
+2025-07-20T07:40:38.106Z INFO  [rustowlc::core::analyze] facts of DefId(0:3 ~ v9_str_and_string[2b81]::main) prepared; start analyze of DefId(0:3 ~ v9_str_and_string[2b81]::main)
+2025-07-20T07:40:38.106Z INFO  [rustowlc::core] borrow checked: 1 / 3
+2025-07-20T07:40:38.106Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-20T07:40:38.108Z INFO  [rustowlc::core] start borrowck of DefId(0:4 ~ v9_str_and_string[2b81]::string_find_f)
+2025-07-20T07:40:38.109Z INFO  [rustowlc::core::analyze] facts of DefId(0:4 ~ v9_str_and_string[2b81]::string_find_f) prepared; start analyze of DefId(0:4 ~ v9_str_and_string[2b81]::string_find_f)
+2025-07-20T07:40:38.109Z INFO  [rustowlc::core] borrow checked: 2 / 3
+2025-07-20T07:40:38.109Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-20T07:40:38.110Z INFO  [rustowlc::core] start borrowck of DefId(0:6 ~ v9_str_and_string[2b81]::choser_str)
+2025-07-20T07:40:38.110Z INFO  [rustowlc::core::analyze] facts of DefId(0:6 ~ v9_str_and_string[2b81]::choser_str) prepared; start analyze of DefId(0:6 ~ v9_str_and_string[2b81]::choser_str)
+2025-07-20T07:40:38.110Z INFO  [rustowlc::core] borrow checked: 3 / 3
+2025-07-20T07:40:38.110Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-20T07:40:38.110Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-20T07:40:38.111Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s0-rust-overview/v9_str_and_string/src/main.rs
+2025-07-20T07:40:38.112Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-20T07:40:38.115Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s0-rust-overview/v9_str_and_string/src/main.rs
+2025-07-20T07:40:38.115Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-20T07:40:38.119Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s0-rust-overview/v9_str_and_string/src/main.rs

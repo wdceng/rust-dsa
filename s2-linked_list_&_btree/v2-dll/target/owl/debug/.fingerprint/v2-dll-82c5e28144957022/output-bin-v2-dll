@@ -1,0 +1,36 @@
+2025-08-08T13:03:11.159Z INFO  [rustowlc::core] start borrowck of DefId(0:20 ~ v2_dll[7f74]::{impl#1}::fmt)
+2025-08-08T13:03:11.160Z INFO  [rustowlc::core::analyze] facts of DefId(0:20 ~ v2_dll[7f74]::{impl#1}::fmt) prepared; start analyze of DefId(0:20 ~ v2_dll[7f74]::{impl#1}::fmt)
+2025-08-08T13:03:11.161Z INFO  [rustowlc::core] borrow checked: 1 / 6
+2025-08-08T13:03:11.161Z INFO  [rustowlc::core] start borrowck of DefId(0:27 ~ v2_dll[7f74]::{impl#2}::fmt)
+2025-08-08T13:03:11.161Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-08T13:03:11.161Z INFO  [rustowlc::core::analyze] facts of DefId(0:27 ~ v2_dll[7f74]::{impl#2}::fmt) prepared; start analyze of DefId(0:27 ~ v2_dll[7f74]::{impl#2}::fmt)
+2025-08-08T13:03:11.162Z INFO  [rustowlc::core] borrow checked: 2 / 6
+2025-08-08T13:03:11.162Z INFO  [rustowlc::core] start borrowck of DefId(0:9 ~ v2_dll[7f74]::{impl#0}::new)
+2025-08-08T13:03:11.162Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-08T13:03:11.162Z INFO  [rustowlc::core::analyze] facts of DefId(0:9 ~ v2_dll[7f74]::{impl#0}::new) prepared; start analyze of DefId(0:9 ~ v2_dll[7f74]::{impl#0}::new)
+2025-08-08T13:03:11.162Z INFO  [rustowlc::core] borrow checked: 3 / 6
+2025-08-08T13:03:11.162Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-08T13:03:11.162Z INFO  [rustowlc::core] start borrowck of DefId(0:10 ~ v2_dll[7f74]::{impl#0}::push_front)
+2025-08-08T13:03:11.162Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-08T13:03:11.163Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-08T13:03:11.163Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-08T13:03:11.166Z INFO  [rustowlc::core::analyze] facts of DefId(0:10 ~ v2_dll[7f74]::{impl#0}::push_front) prepared; start analyze of DefId(0:10 ~ v2_dll[7f74]::{impl#0}::push_front)
+2025-08-08T13:03:11.167Z INFO  [rustowlc::core] borrow checked: 4 / 6
+2025-08-08T13:03:11.167Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-08T13:03:11.167Z INFO  [rustowlc::core] start borrowck of DefId(0:11 ~ v2_dll[7f74]::{impl#0}::push_back)
+2025-08-08T13:03:11.172Z INFO  [rustowlc::core::analyze] facts of DefId(0:11 ~ v2_dll[7f74]::{impl#0}::push_back) prepared; start analyze of DefId(0:11 ~ v2_dll[7f74]::{impl#0}::push_back)
+2025-08-08T13:03:11.174Z INFO  [rustowlc::core] borrow checked: 5 / 6
+2025-08-08T13:03:11.174Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-08T13:03:11.174Z INFO  [rustowlc::core] start borrowck of DefId(0:12 ~ v2_dll[7f74]::main)
+2025-08-08T13:03:11.175Z INFO  [rustowlc::core::analyze] facts of DefId(0:12 ~ v2_dll[7f74]::main) prepared; start analyze of DefId(0:12 ~ v2_dll[7f74]::main)
+2025-08-08T13:03:11.175Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-08T13:03:11.176Z INFO  [rustowlc::core] borrow checked: 6 / 6
+2025-08-08T13:03:11.176Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-08T13:03:11.178Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-08T13:03:11.179Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v2-dll/src/main.rs
+2025-08-08T13:03:11.182Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v2-dll/src/main.rs
+2025-08-08T13:03:11.183Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-08T13:03:11.184Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v2-dll/src/main.rs
+2025-08-08T13:03:11.202Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v2-dll/src/main.rs
+2025-08-08T13:03:11.210Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v2-dll/src/main.rs
+2025-08-08T13:03:11.245Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v2-dll/src/main.rs

@@ -1,0 +1,24 @@
+2025-07-17T19:54:35.371Z INFO  [rustowlc::core] start borrowck of DefId(0:12 ~ v2_struct_enum[2502]::{impl#1}::fmt)
+2025-07-17T19:54:35.373Z INFO  [rustowlc::core::analyze] facts of DefId(0:12 ~ v2_struct_enum[2502]::{impl#1}::fmt) prepared; start analyze of DefId(0:12 ~ v2_struct_enum[2502]::{impl#1}::fmt)
+2025-07-17T19:54:35.373Z INFO  [rustowlc::core] borrow checked: 1 / 4
+2025-07-17T19:54:35.373Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-17T19:54:35.374Z INFO  [rustowlc::core] start borrowck of DefId(0:22 ~ v2_struct_enum[2502]::{impl#2}::fmt)
+2025-07-17T19:54:35.374Z INFO  [rustowlc::core::analyze] facts of DefId(0:22 ~ v2_struct_enum[2502]::{impl#2}::fmt) prepared; start analyze of DefId(0:22 ~ v2_struct_enum[2502]::{impl#2}::fmt)
+2025-07-17T19:54:35.374Z INFO  [rustowlc::core] borrow checked: 2 / 4
+2025-07-17T19:54:35.374Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-17T19:54:35.375Z INFO  [rustowlc::core] start borrowck of DefId(0:4 ~ v2_struct_enum[2502]::{impl#0}::print)
+2025-07-17T19:54:35.376Z INFO  [rustowlc::core::analyze] facts of DefId(0:4 ~ v2_struct_enum[2502]::{impl#0}::print) prepared; start analyze of DefId(0:4 ~ v2_struct_enum[2502]::{impl#0}::print)
+2025-07-17T19:54:35.376Z INFO  [rustowlc::core] borrow checked: 3 / 4
+2025-07-17T19:54:35.376Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-17T19:54:35.376Z INFO  [rustowlc::core] start borrowck of DefId(0:5 ~ v2_struct_enum[2502]::main)
+2025-07-17T19:54:35.376Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-17T19:54:35.376Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-17T19:54:35.378Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-17T19:54:35.380Z INFO  [rustowlc::core::analyze] facts of DefId(0:5 ~ v2_struct_enum[2502]::main) prepared; start analyze of DefId(0:5 ~ v2_struct_enum[2502]::main)
+2025-07-17T19:54:35.380Z INFO  [rustowlc::core] borrow checked: 4 / 4
+2025-07-17T19:54:35.380Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-17T19:54:35.383Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/my_code/v2_struct_enum/src/main.rs
+2025-07-17T19:54:35.384Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/my_code/v2_struct_enum/src/main.rs
+2025-07-17T19:54:35.387Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-17T19:54:35.388Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/my_code/v2_struct_enum/src/main.rs
+2025-07-17T19:54:35.394Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/my_code/v2_struct_enum/src/main.rs

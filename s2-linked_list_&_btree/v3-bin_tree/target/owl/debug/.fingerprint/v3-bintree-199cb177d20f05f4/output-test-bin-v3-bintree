@@ -1,0 +1,42 @@
+2025-08-08T14:59:57.517Z INFO  [rustowlc::core] start borrowck of DefId(0:20 ~ v3_bintree[055b]::{impl#3}::fmt)
+2025-08-08T14:59:57.518Z INFO  [rustowlc::core::analyze] facts of DefId(0:20 ~ v3_bintree[055b]::{impl#3}::fmt) prepared; start analyze of DefId(0:20 ~ v3_bintree[055b]::{impl#3}::fmt)
+2025-08-08T14:59:57.518Z INFO  [rustowlc::core] borrow checked: 1 / 7
+2025-08-08T14:59:57.518Z INFO  [rustowlc::core] start borrowck of DefId(0:28 ~ v3_bintree[055b]::{impl#4}::fmt)
+2025-08-08T14:59:57.518Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-08T14:59:57.519Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-08T14:59:57.519Z INFO  [rustowlc::core::analyze] facts of DefId(0:28 ~ v3_bintree[055b]::{impl#4}::fmt) prepared; start analyze of DefId(0:28 ~ v3_bintree[055b]::{impl#4}::fmt)
+2025-08-08T14:59:57.519Z INFO  [rustowlc::core] borrow checked: 2 / 7
+2025-08-08T14:59:57.519Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-08T14:59:57.519Z INFO  [rustowlc::core] start borrowck of DefId(0:6 ~ v3_bintree[055b]::{impl#0}::new)
+2025-08-08T14:59:57.520Z INFO  [rustowlc::core::analyze] facts of DefId(0:6 ~ v3_bintree[055b]::{impl#0}::new) prepared; start analyze of DefId(0:6 ~ v3_bintree[055b]::{impl#0}::new)
+2025-08-08T14:59:57.520Z INFO  [rustowlc::core] borrow checked: 3 / 7
+2025-08-08T14:59:57.520Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-08T14:59:57.520Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-08T14:59:57.520Z INFO  [rustowlc::core] start borrowck of DefId(0:9 ~ v3_bintree[055b]::{impl#1}::add_sorted)
+2025-08-08T14:59:57.521Z INFO  [rustowlc::core::analyze] facts of DefId(0:9 ~ v3_bintree[055b]::{impl#1}::add_sorted) prepared; start analyze of DefId(0:9 ~ v3_bintree[055b]::{impl#1}::add_sorted)
+2025-08-08T14:59:57.521Z INFO  [rustowlc::core] borrow checked: 4 / 7
+2025-08-08T14:59:57.521Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-08T14:59:57.521Z INFO  [rustowlc::core] start borrowck of DefId(0:12 ~ v3_bintree[055b]::{impl#2}::print_left_first)
+2025-08-08T14:59:57.521Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-08T14:59:57.523Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-08T14:59:57.525Z INFO  [rustowlc::core::analyze] facts of DefId(0:12 ~ v3_bintree[055b]::{impl#2}::print_left_first) prepared; start analyze of DefId(0:12 ~ v3_bintree[055b]::{impl#2}::print_left_first)
+2025-08-08T14:59:57.525Z INFO  [rustowlc::core] borrow checked: 5 / 7
+2025-08-08T14:59:57.525Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-08T14:59:57.525Z INFO  [rustowlc::core] start borrowck of DefId(0:13 ~ v3_bintree[055b]::main)
+2025-08-08T14:59:57.526Z INFO  [rustowlc::core::analyze] facts of DefId(0:13 ~ v3_bintree[055b]::main) prepared; start analyze of DefId(0:13 ~ v3_bintree[055b]::main)
+2025-08-08T14:59:57.526Z INFO  [rustowlc::core] borrow checked: 6 / 7
+2025-08-08T14:59:57.526Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-08T14:59:57.526Z INFO  [rustowlc::core] start borrowck of DefId(0:29 ~ v3_bintree[055b]::main#1)
+2025-08-08T14:59:57.526Z INFO  [rustowlc::core::analyze] facts of DefId(0:29 ~ v3_bintree[055b]::main#1) prepared; start analyze of DefId(0:29 ~ v3_bintree[055b]::main#1)
+2025-08-08T14:59:57.527Z INFO  [rustowlc::core] borrow checked: 7 / 7
+2025-08-08T14:59:57.527Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-08T14:59:57.527Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-08T14:59:57.527Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-08T14:59:57.529Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v3-bintree/src/main.rs
+2025-08-08T14:59:57.529Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v3-bintree/src/main.rs
+2025-08-08T14:59:57.531Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v3-bintree/src/main.rs
+2025-08-08T14:59:57.532Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-08T14:59:57.533Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v3-bintree/src/main.rs
+2025-08-08T14:59:57.534Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v3-bintree/src/main.rs
+2025-08-08T14:59:57.536Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v3-bintree/src/main.rs
+2025-08-08T14:59:57.547Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v3-bintree/src/main.rs

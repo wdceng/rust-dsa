@@ -1,0 +1,105 @@
+2025-07-19T19:38:19.364Z INFO  [rustowlc::core] start borrowck of DefId(0:53 ~ v1_sort[8546]::b_rand::RG)
+2025-07-19T19:38:19.365Z INFO  [rustowlc::core::analyze] facts of DefId(0:53 ~ v1_sort[8546]::b_rand::RG) prepared; start analyze of DefId(0:53 ~ v1_sort[8546]::b_rand::RG)
+2025-07-19T19:38:19.366Z INFO  [rustowlc::core] borrow checked: 1 / 17
+2025-07-19T19:38:19.366Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-19T19:38:19.366Z INFO  [rustowlc::core] start borrowck of DefId(0:61 ~ v1_sort[8546]::b_rand::{impl#4}::deref::__stability::LAZY)
+2025-07-19T19:38:19.366Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-19T19:38:19.366Z INFO  [rustowlc::core::analyze] facts of DefId(0:61 ~ v1_sort[8546]::b_rand::{impl#4}::deref::__stability::LAZY) prepared; start analyze of DefId(0:61 ~ v1_sort[8546]::b_rand::{impl#4}::deref::__stability::LAZY)
+2025-07-19T19:38:19.366Z INFO  [rustowlc::core] borrow checked: 2 / 17
+2025-07-19T19:38:19.366Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-19T19:38:19.366Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-19T19:38:19.372Z INFO  [rustowlc::core] start borrowck of DefId(0:56 ~ v1_sort[8546]::b_rand::{impl#4}::deref)
+2025-07-19T19:38:19.373Z INFO  [rustowlc::core::analyze] facts of DefId(0:56 ~ v1_sort[8546]::b_rand::{impl#4}::deref) prepared; start analyze of DefId(0:56 ~ v1_sort[8546]::b_rand::{impl#4}::deref)
+2025-07-19T19:38:19.373Z INFO  [rustowlc::core] borrow checked: 3 / 17
+2025-07-19T19:38:19.373Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-19T19:38:19.373Z INFO  [rustowlc::core] start borrowck of DefId(0:57 ~ v1_sort[8546]::b_rand::{impl#4}::deref::__static_ref_initialize)
+2025-07-19T19:38:19.373Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-19T19:38:19.373Z INFO  [rustowlc::core::analyze] facts of DefId(0:57 ~ v1_sort[8546]::b_rand::{impl#4}::deref::__static_ref_initialize) prepared; start analyze of DefId(0:57 ~ v1_sort[8546]::b_rand::{impl#4}::deref::__static_ref_initialize)
+2025-07-19T19:38:19.373Z INFO  [rustowlc::core] borrow checked: 4 / 17
+2025-07-19T19:38:19.373Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-19T19:38:19.373Z INFO  [rustowlc::core] start borrowck of DefId(0:58 ~ v1_sort[8546]::b_rand::{impl#4}::deref::__stability)
+2025-07-19T19:38:19.373Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-19T19:38:19.373Z INFO  [rustowlc::core::analyze] facts of DefId(0:58 ~ v1_sort[8546]::b_rand::{impl#4}::deref::__stability) prepared; start analyze of DefId(0:58 ~ v1_sort[8546]::b_rand::{impl#4}::deref::__stability)
+2025-07-19T19:38:19.373Z INFO  [rustowlc::core] borrow checked: 5 / 17
+2025-07-19T19:38:19.373Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-19T19:38:19.373Z INFO  [rustowlc::core] start borrowck of DefId(0:60 ~ v1_sort[8546]::b_rand::{impl#5}::initialize)
+2025-07-19T19:38:19.373Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-19T19:38:19.374Z INFO  [rustowlc::core::analyze] facts of DefId(0:60 ~ v1_sort[8546]::b_rand::{impl#5}::initialize) prepared; start analyze of DefId(0:60 ~ v1_sort[8546]::b_rand::{impl#5}::initialize)
+2025-07-19T19:38:19.374Z INFO  [rustowlc::core] borrow checked: 6 / 17
+2025-07-19T19:38:19.374Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-19T19:38:19.374Z INFO  [rustowlc::core] start borrowck of DefId(0:10 ~ v1_sort[8546]::b_rand::rand)
+2025-07-19T19:38:19.374Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-19T19:38:19.375Z INFO  [rustowlc::core::analyze] facts of DefId(0:10 ~ v1_sort[8546]::b_rand::rand) prepared; start analyze of DefId(0:10 ~ v1_sort[8546]::b_rand::rand)
+2025-07-19T19:38:19.375Z INFO  [rustowlc::core] borrow checked: 7 / 17
+2025-07-19T19:38:19.375Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-19T19:38:19.375Z INFO  [rustowlc::core] start borrowck of DefId(0:17 ~ v1_sort[8546]::b_rand::{impl#0}::new)
+2025-07-19T19:38:19.375Z INFO  [rustowlc::core::analyze] facts of DefId(0:17 ~ v1_sort[8546]::b_rand::{impl#0}::new) prepared; start analyze of DefId(0:17 ~ v1_sort[8546]::b_rand::{impl#0}::new)
+2025-07-19T19:38:19.375Z INFO  [rustowlc::core] borrow checked: 8 / 17
+2025-07-19T19:38:19.375Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-19T19:38:19.375Z INFO  [rustowlc::core] start borrowck of DefId(0:20 ~ v1_sort[8546]::b_rand::{impl#1}::next)
+2025-07-19T19:38:19.375Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-19T19:38:19.375Z INFO  [rustowlc::core::analyze] facts of DefId(0:20 ~ v1_sort[8546]::b_rand::{impl#1}::next) prepared; start analyze of DefId(0:20 ~ v1_sort[8546]::b_rand::{impl#1}::next)
+2025-07-19T19:38:19.376Z INFO  [rustowlc::core] borrow checked: 9 / 17
+2025-07-19T19:38:19.376Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-19T19:38:19.376Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-19T19:38:19.376Z INFO  [rustowlc::core] start borrowck of DefId(0:28 ~ v1_sort[8546]::b_rand::{impl#2}::new)
+2025-07-19T19:38:19.376Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-19T19:38:19.377Z INFO  [rustowlc::core::analyze] facts of DefId(0:28 ~ v1_sort[8546]::b_rand::{impl#2}::new) prepared; start analyze of DefId(0:28 ~ v1_sort[8546]::b_rand::{impl#2}::new)
+2025-07-19T19:38:19.377Z INFO  [rustowlc::core] borrow checked: 10 / 17
+2025-07-19T19:38:19.377Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-19T19:38:19.378Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-19T19:38:19.378Z INFO  [rustowlc::core] start borrowck of DefId(0:31 ~ v1_sort[8546]::b_rand::{impl#3}::next)
+2025-07-19T19:38:19.379Z INFO  [rustowlc::core::analyze] facts of DefId(0:31 ~ v1_sort[8546]::b_rand::{impl#3}::next) prepared; start analyze of DefId(0:31 ~ v1_sort[8546]::b_rand::{impl#3}::next)
+2025-07-19T19:38:19.379Z INFO  [rustowlc::core] borrow checked: 11 / 17
+2025-07-19T19:38:19.379Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-19T19:38:19.379Z INFO  [rustowlc::core] start borrowck of DefId(0:32 ~ v1_sort[8546]::main)
+2025-07-19T19:38:19.380Z INFO  [rustowlc::core::analyze] borrow check finished
+{"$message_type":"diagnostic","message":"variable does not need to be mutable","code":{"code":"unused_mut","explanation":null},"level":"warning","spans":[{"file_name":"src/main.rs","byte_start":33,"byte_end":38,"line_start":4,"line_end":4,"column_start":9,"column_end":14,"is_primary":true,"text":[{"text":"    let mut v = vec![1, 34, 6, 12, 8, 100, 320, 66, 90, 2000, 45, 65, 120];","highlight_start":9,"highlight_end":14}],"label":null,"suggested_replacement":null,"suggestion_applicability":null,"expansion":null}],"children":[{"message":"`#[warn(unused_mut)]` on by default","code":null,"level":"note","spans":[],"children":[],"rendered":null},{"message":"remove this `mut`","code":null,"level":"help","spans":[{"file_name":"src/main.rs","byte_start":33,"byte_end":37,"line_start":4,"line_end":4,"column_start":9,"column_end":13,"is_primary":true,"text":[{"text":"    let mut v = vec![1, 34, 6, 12, 8, 100, 320, 66, 90, 2000, 45, 65, 120];","highlight_start":9,"highlight_end":13}],"label":null,"suggested_replacement":"","suggestion_applicability":"MachineApplicable","expansion":null}],"children":[],"rendered":null}],"rendered":"\u001b[0m\u001b[1m\u001b[33mwarning\u001b[0m\u001b[0m\u001b[1m: variable does not need to be mutable\u001b[0m\n\u001b[0m \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m--> \u001b[0m\u001b[0msrc/main.rs:4:9\u001b[0m\n\u001b[0m  \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\n\u001b[0m\u001b[1m\u001b[38;5;12m4\u001b[0m\u001b[0m \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\u001b[0m \u001b[0m\u001b[0m    let mut v = vec![1, 34, 6, 12, 8, 100, 320, 66, 90, 2000, 45, 65, 120];\u001b[0m\n\u001b[0m  \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\u001b[0m         \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m----\u001b[0m\u001b[0m\u001b[1m\u001b[33m^\u001b[0m\n\u001b[0m  \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\u001b[0m         \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\n\u001b[0m  \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\u001b[0m         \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12mhelp: remove this `mut`\u001b[0m\n\u001b[0m  \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\n\u001b[0m  \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m= \u001b[0m\u001b[0m\u001b[1mnote\u001b[0m\u001b[0m: `#[warn(unused_mut)]` on by default\u001b[0m\n\n"}
+2025-07-19T19:38:19.386Z INFO  [rustowlc::core::analyze] facts of DefId(0:32 ~ v1_sort[8546]::main) prepared; start analyze of DefId(0:32 ~ v1_sort[8546]::main)
+2025-07-19T19:38:19.386Z INFO  [rustowlc::core] borrow checked: 12 / 17
+2025-07-19T19:38:19.386Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-19T19:38:19.387Z INFO  [rustowlc::core] start borrowck of DefId(0:33 ~ v1_sort[8546]::insert_sort)
+2025-07-19T19:38:19.390Z INFO  [rustowlc::core::analyze] facts of DefId(0:33 ~ v1_sort[8546]::insert_sort) prepared; start analyze of DefId(0:33 ~ v1_sort[8546]::insert_sort)
+2025-07-19T19:38:19.391Z INFO  [rustowlc::core] borrow checked: 13 / 17
+2025-07-19T19:38:19.391Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-19T19:38:19.391Z INFO  [rustowlc::core] start borrowck of DefId(0:35 ~ v1_sort[8546]::bubble_sort)
+2025-07-19T19:38:19.394Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-19T19:38:19.396Z INFO  [rustowlc::core::analyze] facts of DefId(0:35 ~ v1_sort[8546]::bubble_sort) prepared; start analyze of DefId(0:35 ~ v1_sort[8546]::bubble_sort)
+2025-07-19T19:38:19.397Z INFO  [rustowlc::core] borrow checked: 14 / 17
+2025-07-19T19:38:19.397Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-19T19:38:19.397Z INFO  [rustowlc::core] start borrowck of DefId(0:37 ~ v1_sort[8546]::merge_sort)
+2025-07-19T19:38:19.398Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-19T19:38:19.405Z INFO  [rustowlc::core::analyze] facts of DefId(0:37 ~ v1_sort[8546]::merge_sort) prepared; start analyze of DefId(0:37 ~ v1_sort[8546]::merge_sort)
+2025-07-19T19:38:19.407Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-19T19:38:19.407Z INFO  [rustowlc::core] borrow checked: 15 / 17
+2025-07-19T19:38:19.407Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-19T19:38:19.407Z INFO  [rustowlc::core] start borrowck of DefId(0:39 ~ v1_sort[8546]::pivot)
+2025-07-19T19:38:19.411Z INFO  [rustowlc::core::analyze] facts of DefId(0:39 ~ v1_sort[8546]::pivot) prepared; start analyze of DefId(0:39 ~ v1_sort[8546]::pivot)
+2025-07-19T19:38:19.412Z INFO  [rustowlc::core] borrow checked: 16 / 17
+2025-07-19T19:38:19.412Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-19T19:38:19.412Z INFO  [rustowlc::core] start borrowck of DefId(0:41 ~ v1_sort[8546]::quick_sort)
+2025-07-19T19:38:19.415Z INFO  [rustowlc::core::analyze] facts of DefId(0:41 ~ v1_sort[8546]::quick_sort) prepared; start analyze of DefId(0:41 ~ v1_sort[8546]::quick_sort)
+2025-07-19T19:38:19.416Z INFO  [rustowlc::core] borrow checked: 17 / 17
+2025-07-19T19:38:19.416Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-19T19:38:19.417Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lazy_static-1.4.0/src/lib.rs
+2025-07-19T19:38:19.419Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-19T19:38:19.421Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lazy_static-1.4.0/src/inline_lazy.rs
+2025-07-19T19:38:19.422Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lazy_static-1.4.0/src/lib.rs
+2025-07-19T19:38:19.422Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lazy_static-1.4.0/src/lib.rs
+2025-07-19T19:38:19.422Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lazy_static-1.4.0/src/lib.rs
+2025-07-19T19:38:19.423Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-19T19:38:19.423Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lazy_static-1.4.0/src/lib.rs
+2025-07-19T19:38:19.423Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/code/d2-sorting/v1-sort/src/b_rand.rs
+2025-07-19T19:38:19.424Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/code/d2-sorting/v1-sort/src/b_rand.rs
+2025-07-19T19:38:19.424Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-19T19:38:19.425Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/code/d2-sorting/v1-sort/src/b_rand.rs
+2025-07-19T19:38:19.427Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/code/d2-sorting/v1-sort/src/b_rand.rs
+2025-07-19T19:38:19.430Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/code/d2-sorting/v1-sort/src/b_rand.rs
+2025-07-19T19:38:19.446Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/code/d2-sorting/v1-sort/src/main.rs
+2025-07-19T19:38:19.455Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/code/d2-sorting/v1-sort/src/main.rs
+2025-07-19T19:38:19.469Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/code/d2-sorting/v1-sort/src/main.rs
+2025-07-19T19:38:19.490Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/code/d2-sorting/v1-sort/src/main.rs
+2025-07-19T19:38:19.508Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/code/d2-sorting/v1-sort/src/main.rs
+2025-07-19T19:38:19.563Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/code/d2-sorting/v1-sort/src/main.rs
+{"$message_type":"diagnostic","message":"struct `RawSend` is never constructed","code":{"code":"dead_code","explanation":null},"level":"warning","spans":[{"file_name":"src/main.rs","byte_start":2868,"byte_end":2875,"line_start":117,"line_end":117,"column_start":8,"column_end":15,"is_primary":true,"text":[{"text":"struct RawSend<'a, T>(&'a [T]);","highlight_start":8,"highlight_end":15}],"label":null,"suggested_replacement":null,"suggestion_applicability":null,"expansion":null}],"children":[{"message":"`#[warn(dead_code)]` on by default","code":null,"level":"note","spans":[],"children":[],"rendered":null}],"rendered":"\u001b[0m\u001b[1m\u001b[33mwarning\u001b[0m\u001b[0m\u001b[1m: struct `RawSend` is never constructed\u001b[0m\n\u001b[0m   \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m--> \u001b[0m\u001b[0msrc/main.rs:117:8\u001b[0m\n\u001b[0m    \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\n\u001b[0m\u001b[1m\u001b[38;5;12m117\u001b[0m\u001b[0m \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\u001b[0m \u001b[0m\u001b[0mstruct RawSend<'a, T>(&'a [T]);\u001b[0m\n\u001b[0m    \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\u001b[0m        \u001b[0m\u001b[0m\u001b[1m\u001b[33m^^^^^^^\u001b[0m\n\u001b[0m    \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\n\u001b[0m    \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m= \u001b[0m\u001b[0m\u001b[1mnote\u001b[0m\u001b[0m: `#[warn(dead_code)]` on by default\u001b[0m\n\n"}
+{"$message_type":"diagnostic","message":"2 warnings emitted","code":null,"level":"warning","spans":[],"children":[],"rendered":"\u001b[0m\u001b[1m\u001b[33mwarning\u001b[0m\u001b[0m\u001b[1m: 2 warnings emitted\u001b[0m\n\n"}

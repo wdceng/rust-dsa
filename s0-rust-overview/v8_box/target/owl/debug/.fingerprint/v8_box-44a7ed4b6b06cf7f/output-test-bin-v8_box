@@ -1,0 +1,24 @@
+2025-07-18T14:47:37.162Z INFO  [rustowlc::core] start borrowck of DefId(0:13 ~ v8_box[4216]::{impl#1}::fmt)
+2025-07-18T14:47:37.164Z INFO  [rustowlc::core::analyze] facts of DefId(0:13 ~ v8_box[4216]::{impl#1}::fmt) prepared; start analyze of DefId(0:13 ~ v8_box[4216]::{impl#1}::fmt)
+2025-07-18T14:47:37.164Z INFO  [rustowlc::core] borrow checked: 1 / 4
+2025-07-18T14:47:37.164Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-18T14:47:37.164Z INFO  [rustowlc::core] start borrowck of DefId(0:5 ~ v8_box[4216]::{impl#0}::add_up)
+2025-07-18T14:47:37.164Z INFO  [rustowlc::core::analyze] facts of DefId(0:5 ~ v8_box[4216]::{impl#0}::add_up) prepared; start analyze of DefId(0:5 ~ v8_box[4216]::{impl#0}::add_up)
+2025-07-18T14:47:37.164Z INFO  [rustowlc::core] borrow checked: 2 / 4
+2025-07-18T14:47:37.165Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-18T14:47:37.165Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-18T14:47:37.165Z INFO  [rustowlc::core] start borrowck of DefId(0:6 ~ v8_box[4216]::main)
+2025-07-18T14:47:37.166Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-18T14:47:37.172Z INFO  [rustowlc::core::analyze] facts of DefId(0:6 ~ v8_box[4216]::main) prepared; start analyze of DefId(0:6 ~ v8_box[4216]::main)
+2025-07-18T14:47:37.172Z INFO  [rustowlc::core] borrow checked: 3 / 4
+2025-07-18T14:47:37.172Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-18T14:47:37.172Z INFO  [rustowlc::core] start borrowck of DefId(0:14 ~ v8_box[4216]::main#1)
+2025-07-18T14:47:37.173Z INFO  [rustowlc::core::analyze] facts of DefId(0:14 ~ v8_box[4216]::main#1) prepared; start analyze of DefId(0:14 ~ v8_box[4216]::main#1)
+2025-07-18T14:47:37.173Z INFO  [rustowlc::core] borrow checked: 4 / 4
+2025-07-18T14:47:37.173Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-18T14:47:37.173Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/my_code/v8_box/src/main.rs
+2025-07-18T14:47:37.173Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-18T14:47:37.175Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/my_code/v8_box/src/main.rs
+2025-07-18T14:47:37.175Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/my_code/v8_box/src/main.rs
+2025-07-18T14:47:37.186Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-18T14:47:37.196Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/my_code/v8_box/src/main.rs

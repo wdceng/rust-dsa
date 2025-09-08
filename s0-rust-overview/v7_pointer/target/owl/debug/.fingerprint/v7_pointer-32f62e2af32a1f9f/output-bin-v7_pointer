@@ -1,0 +1,50 @@
+2025-07-18T12:14:54.715Z INFO  [rustowlc::core] start borrowck of DefId(0:14 ~ v7_pointer[7cf9]::{impl#1}::fmt)
+2025-07-18T12:14:54.717Z INFO  [rustowlc::core::analyze] facts of DefId(0:14 ~ v7_pointer[7cf9]::{impl#1}::fmt) prepared; start analyze of DefId(0:14 ~ v7_pointer[7cf9]::{impl#1}::fmt)
+2025-07-18T12:14:54.717Z INFO  [rustowlc::core] borrow checked: 1 / 8
+2025-07-18T12:14:54.717Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-18T12:14:54.717Z INFO  [rustowlc::core] start borrowck of DefId(0:16 ~ v7_pointer[7cf9]::{impl#2}::clone)
+2025-07-18T12:14:54.717Z INFO  [rustowlc::core::analyze] facts of DefId(0:16 ~ v7_pointer[7cf9]::{impl#2}::clone) prepared; start analyze of DefId(0:16 ~ v7_pointer[7cf9]::{impl#2}::clone)
+2025-07-18T12:14:54.718Z INFO  [rustowlc::core] borrow checked: 2 / 8
+2025-07-18T12:14:54.718Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-18T12:14:54.718Z INFO  [rustowlc::core] start borrowck of DefId(0:4 ~ v7_pointer[7cf9]::{impl#0}::new)
+2025-07-18T12:14:54.718Z INFO  [rustowlc::core::analyze] facts of DefId(0:4 ~ v7_pointer[7cf9]::{impl#0}::new) prepared; start analyze of DefId(0:4 ~ v7_pointer[7cf9]::{impl#0}::new)
+2025-07-18T12:14:54.718Z INFO  [rustowlc::core] borrow checked: 3 / 8
+2025-07-18T12:14:54.718Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-18T12:14:54.718Z INFO  [rustowlc::core] start borrowck of DefId(0:5 ~ v7_pointer[7cf9]::{impl#0}::greet)
+2025-07-18T12:14:54.718Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-18T12:14:54.718Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-18T12:14:54.718Z INFO  [rustowlc::core::analyze] facts of DefId(0:5 ~ v7_pointer[7cf9]::{impl#0}::greet) prepared; start analyze of DefId(0:5 ~ v7_pointer[7cf9]::{impl#0}::greet)
+2025-07-18T12:14:54.718Z INFO  [rustowlc::core] borrow checked: 4 / 8
+2025-07-18T12:14:54.718Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-18T12:14:54.718Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-18T12:14:54.718Z INFO  [rustowlc::core] start borrowck of DefId(0:6 ~ v7_pointer[7cf9]::{impl#0}::age_up)
+2025-07-18T12:14:54.719Z INFO  [rustowlc::core::analyze] facts of DefId(0:6 ~ v7_pointer[7cf9]::{impl#0}::age_up) prepared; start analyze of DefId(0:6 ~ v7_pointer[7cf9]::{impl#0}::age_up)
+2025-07-18T12:14:54.719Z INFO  [rustowlc::core] borrow checked: 5 / 8
+2025-07-18T12:14:54.719Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-18T12:14:54.719Z INFO  [rustowlc::core] start borrowck of DefId(0:7 ~ v7_pointer[7cf9]::{impl#0}::dropme)
+2025-07-18T12:14:54.719Z INFO  [rustowlc::core::analyze] facts of DefId(0:7 ~ v7_pointer[7cf9]::{impl#0}::dropme) prepared; start analyze of DefId(0:7 ~ v7_pointer[7cf9]::{impl#0}::dropme)
+2025-07-18T12:14:54.719Z INFO  [rustowlc::core] borrow checked: 6 / 8
+2025-07-18T12:14:54.719Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-18T12:14:54.719Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-18T12:14:54.719Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-18T12:14:54.719Z INFO  [rustowlc::core] start borrowck of DefId(0:8 ~ v7_pointer[7cf9]::main)
+2025-07-18T12:14:54.719Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-18T12:14:54.722Z INFO  [rustowlc::core::analyze] facts of DefId(0:8 ~ v7_pointer[7cf9]::main) prepared; start analyze of DefId(0:8 ~ v7_pointer[7cf9]::main)
+2025-07-18T12:14:54.723Z INFO  [rustowlc::core] borrow checked: 7 / 8
+2025-07-18T12:14:54.723Z INFO  [rustowlc::core] start borrowck of DefId(0:9 ~ v7_pointer[7cf9]::get_age)
+2025-07-18T12:14:54.723Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-18T12:14:54.723Z INFO  [rustowlc::core::analyze] facts of DefId(0:9 ~ v7_pointer[7cf9]::get_age) prepared; start analyze of DefId(0:9 ~ v7_pointer[7cf9]::get_age)
+2025-07-18T12:14:54.723Z INFO  [rustowlc::core] borrow checked: 8 / 8
+2025-07-18T12:14:54.723Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-18T12:14:54.723Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-18T12:14:54.725Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/my_code/v7_pointer/src/main.rs
+2025-07-18T12:14:54.725Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/my_code/v7_pointer/src/main.rs
+2025-07-18T12:14:54.726Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/my_code/v7_pointer/src/main.rs
+2025-07-18T12:14:54.726Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/my_code/v7_pointer/src/main.rs
+2025-07-18T12:14:54.726Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/my_code/v7_pointer/src/main.rs
+2025-07-18T12:14:54.727Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/my_code/v7_pointer/src/main.rs
+2025-07-18T12:14:54.727Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/my_code/v7_pointer/src/main.rs
+2025-07-18T12:14:54.731Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-18T12:14:54.740Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/my_code/v7_pointer/src/main.rs
+{"$message_type":"diagnostic","message":"method `dropme` is never used","code":{"code":"dead_code","explanation":null},"level":"warning","spans":[{"file_name":"src/main.rs","byte_start":75,"byte_end":86,"line_start":7,"line_end":7,"column_start":1,"column_end":12,"is_primary":false,"text":[{"text":"impl Person {","highlight_start":1,"highlight_end":12}],"label":"method in this implementation","suggested_replacement":null,"suggestion_applicability":null,"expansion":null},{"file_name":"src/main.rs","byte_start":556,"byte_end":562,"line_start":25,"line_end":25,"column_start":8,"column_end":14,"is_primary":true,"text":[{"text":"    fn dropme(self) {}","highlight_start":8,"highlight_end":14}],"label":null,"suggested_replacement":null,"suggestion_applicability":null,"expansion":null}],"children":[{"message":"`#[warn(dead_code)]` on by default","code":null,"level":"note","spans":[],"children":[],"rendered":null}],"rendered":"\u001b[0m\u001b[1m\u001b[33mwarning\u001b[0m\u001b[0m\u001b[1m: method `dropme` is never used\u001b[0m\n\u001b[0m  \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m--> \u001b[0m\u001b[0msrc/main.rs:25:8\u001b[0m\n\u001b[0m   \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\n\u001b[0m\u001b[1m\u001b[38;5;12m7\u001b[0m\u001b[0m  \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\u001b[0m \u001b[0m\u001b[0mimpl Person {\u001b[0m\n\u001b[0m   \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\u001b[0m \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m-----------\u001b[0m\u001b[0m \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12mmethod in this implementation\u001b[0m\n\u001b[0m\u001b[1m\u001b[38;5;12m...\u001b[0m\n\u001b[0m\u001b[1m\u001b[38;5;12m25\u001b[0m\u001b[0m \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\u001b[0m \u001b[0m\u001b[0m    fn dropme(self) {}\u001b[0m\n\u001b[0m   \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\u001b[0m        \u001b[0m\u001b[0m\u001b[1m\u001b[33m^^^^^^\u001b[0m\n\u001b[0m   \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\n\u001b[0m   \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m= \u001b[0m\u001b[0m\u001b[1mnote\u001b[0m\u001b[0m: `#[warn(dead_code)]` on by default\u001b[0m\n\n"}
+{"$message_type":"diagnostic","message":"1 warning emitted","code":null,"level":"warning","spans":[],"children":[],"rendered":"\u001b[0m\u001b[1m\u001b[33mwarning\u001b[0m\u001b[0m\u001b[1m: 1 warning emitted\u001b[0m\n\n"}

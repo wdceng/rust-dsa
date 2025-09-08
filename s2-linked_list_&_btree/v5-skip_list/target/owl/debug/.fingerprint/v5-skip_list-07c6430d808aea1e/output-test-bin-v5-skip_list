@@ -1,0 +1,72 @@
+2025-08-12T13:13:38.720Z INFO  [rustowlc::core] start borrowck of DefId(0:11 ~ v5_skip_list[92e4]::rcc)
+2025-08-12T13:13:38.720Z INFO  [rustowlc::core::analyze] facts of DefId(0:11 ~ v5_skip_list[92e4]::rcc) prepared; start analyze of DefId(0:11 ~ v5_skip_list[92e4]::rcc)
+2025-08-12T13:13:38.720Z INFO  [rustowlc::core] borrow checked: 1 / 12
+2025-08-12T13:13:38.720Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-12T13:13:38.721Z INFO  [rustowlc::core] start borrowck of DefId(0:37 ~ v5_skip_list[92e4]::{impl#4}::fmt)
+2025-08-12T13:13:38.721Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-12T13:13:38.722Z INFO  [rustowlc::core::analyze] facts of DefId(0:37 ~ v5_skip_list[92e4]::{impl#4}::fmt) prepared; start analyze of DefId(0:37 ~ v5_skip_list[92e4]::{impl#4}::fmt)
+2025-08-12T13:13:38.722Z INFO  [rustowlc::core] borrow checked: 2 / 12
+2025-08-12T13:13:38.722Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-12T13:13:38.722Z INFO  [rustowlc::core] start borrowck of DefId(0:44 ~ v5_skip_list[92e4]::{impl#5}::fmt)
+2025-08-12T13:13:38.722Z INFO  [rustowlc::core::analyze] facts of DefId(0:44 ~ v5_skip_list[92e4]::{impl#5}::fmt) prepared; start analyze of DefId(0:44 ~ v5_skip_list[92e4]::{impl#5}::fmt)
+2025-08-12T13:13:38.722Z INFO  [rustowlc::core] borrow checked: 3 / 12
+2025-08-12T13:13:38.722Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-12T13:13:38.722Z INFO  [rustowlc::core] start borrowck of DefId(0:15 ~ v5_skip_list[92e4]::{impl#0}::new)
+2025-08-12T13:13:38.723Z INFO  [rustowlc::core::analyze] facts of DefId(0:15 ~ v5_skip_list[92e4]::{impl#0}::new) prepared; start analyze of DefId(0:15 ~ v5_skip_list[92e4]::{impl#0}::new)
+2025-08-12T13:13:38.723Z INFO  [rustowlc::core] borrow checked: 4 / 12
+2025-08-12T13:13:38.723Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-12T13:13:38.723Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-12T13:13:38.723Z INFO  [rustowlc::core] start borrowck of DefId(0:16 ~ v5_skip_list[92e4]::{impl#0}::insert)
+2025-08-12T13:13:38.723Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-12T13:13:38.724Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-12T13:13:38.735Z INFO  [rustowlc::core::analyze] facts of DefId(0:16 ~ v5_skip_list[92e4]::{impl#0}::insert) prepared; start analyze of DefId(0:16 ~ v5_skip_list[92e4]::{impl#0}::insert)
+2025-08-12T13:13:38.737Z INFO  [rustowlc::core] borrow checked: 5 / 12
+2025-08-12T13:13:38.737Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-12T13:13:38.737Z INFO  [rustowlc::core] start borrowck of DefId(0:19 ~ v5_skip_list[92e4]::{impl#1}::print_row)
+2025-08-12T13:13:38.743Z INFO  [rustowlc::core::analyze] facts of DefId(0:19 ~ v5_skip_list[92e4]::{impl#1}::print_row) prepared; start analyze of DefId(0:19 ~ v5_skip_list[92e4]::{impl#1}::print_row)
+2025-08-12T13:13:38.744Z INFO  [rustowlc::core] borrow checked: 6 / 12
+2025-08-12T13:13:38.745Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-12T13:13:38.745Z INFO  [rustowlc::core] start borrowck of DefId(0:23 ~ v5_skip_list[92e4]::{impl#2}::new)
+2025-08-12T13:13:38.745Z INFO  [rustowlc::core::analyze] facts of DefId(0:23 ~ v5_skip_list[92e4]::{impl#2}::new) prepared; start analyze of DefId(0:23 ~ v5_skip_list[92e4]::{impl#2}::new)
+2025-08-12T13:13:38.745Z INFO  [rustowlc::core] borrow checked: 7 / 12
+2025-08-12T13:13:38.745Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-12T13:13:38.745Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-12T13:13:38.745Z INFO  [rustowlc::core] start borrowck of DefId(0:24 ~ v5_skip_list[92e4]::{impl#2}::insert)
+2025-08-12T13:13:38.754Z INFO  [rustowlc::core::analyze] facts of DefId(0:24 ~ v5_skip_list[92e4]::{impl#2}::insert) prepared; start analyze of DefId(0:24 ~ v5_skip_list[92e4]::{impl#2}::insert)
+2025-08-12T13:13:38.757Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-12T13:13:38.758Z INFO  [rustowlc::core] borrow checked: 8 / 12
+2025-08-12T13:13:38.758Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-12T13:13:38.758Z INFO  [rustowlc::core] start borrowck of DefId(0:25 ~ v5_skip_list[92e4]::{impl#2}::loop_up)
+2025-08-12T13:13:38.761Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-12T13:13:38.762Z INFO  [rustowlc::core::analyze] facts of DefId(0:25 ~ v5_skip_list[92e4]::{impl#2}::loop_up) prepared; start analyze of DefId(0:25 ~ v5_skip_list[92e4]::{impl#2}::loop_up)
+2025-08-12T13:13:38.765Z INFO  [rustowlc::core] borrow checked: 9 / 12
+2025-08-12T13:13:38.765Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-12T13:13:38.765Z INFO  [rustowlc::core] start borrowck of DefId(0:28 ~ v5_skip_list[92e4]::{impl#3}::fmt)
+2025-08-12T13:13:38.770Z INFO  [rustowlc::core::analyze] facts of DefId(0:28 ~ v5_skip_list[92e4]::{impl#3}::fmt) prepared; start analyze of DefId(0:28 ~ v5_skip_list[92e4]::{impl#3}::fmt)
+2025-08-12T13:13:38.772Z INFO  [rustowlc::core] borrow checked: 10 / 12
+2025-08-12T13:13:38.772Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-12T13:13:38.772Z INFO  [rustowlc::core] start borrowck of DefId(0:29 ~ v5_skip_list[92e4]::main)
+2025-08-12T13:13:38.773Z INFO  [rustowlc::core::analyze] facts of DefId(0:29 ~ v5_skip_list[92e4]::main) prepared; start analyze of DefId(0:29 ~ v5_skip_list[92e4]::main)
+2025-08-12T13:13:38.774Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-12T13:13:38.774Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-12T13:13:38.774Z INFO  [rustowlc::core] borrow checked: 11 / 12
+2025-08-12T13:13:38.774Z INFO  [rustowlc::core] start borrowck of DefId(0:45 ~ v5_skip_list[92e4]::main#1)
+2025-08-12T13:13:38.774Z INFO  [rustowlc::core::analyze] facts of DefId(0:45 ~ v5_skip_list[92e4]::main#1) prepared; start analyze of DefId(0:45 ~ v5_skip_list[92e4]::main#1)
+2025-08-12T13:13:38.774Z INFO  [rustowlc::core] borrow checked: 12 / 12
+2025-08-12T13:13:38.774Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-12T13:13:38.774Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-12T13:13:38.776Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-12T13:13:38.776Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v5-skip_list/src/main.rs
+2025-08-12T13:13:38.777Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v5-skip_list/src/main.rs
+2025-08-12T13:13:38.777Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-12T13:13:38.779Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v5-skip_list/src/main.rs
+2025-08-12T13:13:38.781Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-12T13:13:38.783Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v5-skip_list/src/main.rs
+2025-08-12T13:13:38.783Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v5-skip_list/src/main.rs
+2025-08-12T13:13:38.810Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v5-skip_list/src/main.rs
+2025-08-12T13:13:38.865Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v5-skip_list/src/main.rs
+2025-08-12T13:13:38.913Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v5-skip_list/src/main.rs
+2025-08-12T13:13:38.913Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v5-skip_list/src/main.rs
+2025-08-12T13:13:38.927Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v5-skip_list/src/main.rs
+2025-08-12T13:13:38.978Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v5-skip_list/src/main.rs
+2025-08-12T13:13:39.002Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v5-skip_list/src/main.rs

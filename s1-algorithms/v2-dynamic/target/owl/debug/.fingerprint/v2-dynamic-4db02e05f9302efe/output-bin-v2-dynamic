@@ -1,0 +1,36 @@
+2025-08-06T14:15:42.830Z INFO  [rustowlc::core] start borrowck of DefId(0:3 ~ v2_dynamic[dc6a]::main)
+2025-08-06T14:15:42.834Z INFO  [rustowlc::core::analyze] facts of DefId(0:3 ~ v2_dynamic[dc6a]::main) prepared; start analyze of DefId(0:3 ~ v2_dynamic[dc6a]::main)
+2025-08-06T14:15:42.834Z INFO  [rustowlc::core] borrow checked: 1 / 6
+2025-08-06T14:15:42.835Z INFO  [rustowlc::core] start borrowck of DefId(0:4 ~ v2_dynamic[dc6a]::fibonacci)
+2025-08-06T14:15:42.835Z INFO  [rustowlc::core::analyze] facts of DefId(0:4 ~ v2_dynamic[dc6a]::fibonacci) prepared; start analyze of DefId(0:4 ~ v2_dynamic[dc6a]::fibonacci)
+2025-08-06T14:15:42.835Z INFO  [rustowlc::core] borrow checked: 2 / 6
+2025-08-06T14:15:42.835Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-06T14:15:42.836Z INFO  [rustowlc::core] start borrowck of DefId(0:5 ~ v2_dynamic[dc6a]::fibonacci_iter)
+2025-08-06T14:15:42.835Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-06T14:15:42.837Z INFO  [rustowlc::core::analyze] facts of DefId(0:5 ~ v2_dynamic[dc6a]::fibonacci_iter) prepared; start analyze of DefId(0:5 ~ v2_dynamic[dc6a]::fibonacci_iter)
+2025-08-06T14:15:42.837Z INFO  [rustowlc::core] borrow checked: 3 / 6
+2025-08-06T14:15:42.837Z INFO  [rustowlc::core] start borrowck of DefId(0:6 ~ v2_dynamic[dc6a]::fibonacci_dynamic)
+2025-08-06T14:15:42.837Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-06T14:15:42.837Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-06T14:15:42.837Z INFO  [rustowlc::core::analyze] facts of DefId(0:6 ~ v2_dynamic[dc6a]::fibonacci_dynamic) prepared; start analyze of DefId(0:6 ~ v2_dynamic[dc6a]::fibonacci_dynamic)
+2025-08-06T14:15:42.838Z INFO  [rustowlc::core] borrow checked: 4 / 6
+2025-08-06T14:15:42.838Z INFO  [rustowlc::core] start borrowck of DefId(0:7 ~ v2_dynamic[dc6a]::fibonacci_tail)
+2025-08-06T14:15:42.838Z INFO  [rustowlc::core::analyze] facts of DefId(0:7 ~ v2_dynamic[dc6a]::fibonacci_tail) prepared; start analyze of DefId(0:7 ~ v2_dynamic[dc6a]::fibonacci_tail)
+2025-08-06T14:15:42.838Z INFO  [rustowlc::core] borrow checked: 5 / 6
+2025-08-06T14:15:42.838Z INFO  [rustowlc::core] start borrowck of DefId(0:8 ~ v2_dynamic[dc6a]::fibonacci_tail::fib_tail)
+2025-08-06T14:15:42.838Z INFO  [rustowlc::core::analyze] facts of DefId(0:8 ~ v2_dynamic[dc6a]::fibonacci_tail::fib_tail) prepared; start analyze of DefId(0:8 ~ v2_dynamic[dc6a]::fibonacci_tail::fib_tail)
+2025-08-06T14:15:42.838Z INFO  [rustowlc::core] borrow checked: 6 / 6
+2025-08-06T14:15:42.839Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-06T14:15:42.839Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-06T14:15:42.839Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s1-algorithms/v2-dynamic/src/main.rs
+2025-08-06T14:15:42.840Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-06T14:15:42.840Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-06T14:15:42.840Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-06T14:15:42.840Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-06T14:15:42.841Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-06T14:15:42.843Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-06T14:15:42.844Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s1-algorithms/v2-dynamic/src/main.rs
+2025-08-06T14:15:42.845Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s1-algorithms/v2-dynamic/src/main.rs
+2025-08-06T14:15:42.846Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s1-algorithms/v2-dynamic/src/main.rs
+2025-08-06T14:15:42.849Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s1-algorithms/v2-dynamic/src/main.rs
+2025-08-06T14:15:42.857Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s1-algorithms/v2-dynamic/src/main.rs

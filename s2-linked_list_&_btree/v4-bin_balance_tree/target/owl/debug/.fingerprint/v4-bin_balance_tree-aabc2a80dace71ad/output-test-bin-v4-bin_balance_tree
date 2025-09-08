@@ -1,0 +1,90 @@
+2025-08-12T09:00:28.682Z INFO  [rustowlc::core] start borrowck of DefId(0:30 ~ v4_bin_balance_tree[fc58]::{impl#4}::fmt)
+2025-08-12T09:00:28.683Z INFO  [rustowlc::core::analyze] facts of DefId(0:30 ~ v4_bin_balance_tree[fc58]::{impl#4}::fmt) prepared; start analyze of DefId(0:30 ~ v4_bin_balance_tree[fc58]::{impl#4}::fmt)
+2025-08-12T09:00:28.683Z INFO  [rustowlc::core] borrow checked: 1 / 15
+2025-08-12T09:00:28.683Z INFO  [rustowlc::core] start borrowck of DefId(0:39 ~ v4_bin_balance_tree[fc58]::{impl#5}::fmt)
+2025-08-12T09:00:28.683Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-12T09:00:28.684Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-12T09:00:28.685Z INFO  [rustowlc::core::analyze] facts of DefId(0:39 ~ v4_bin_balance_tree[fc58]::{impl#5}::fmt) prepared; start analyze of DefId(0:39 ~ v4_bin_balance_tree[fc58]::{impl#5}::fmt)
+2025-08-12T09:00:28.685Z INFO  [rustowlc::core] borrow checked: 2 / 15
+2025-08-12T09:00:28.685Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-12T09:00:28.685Z INFO  [rustowlc::core] start borrowck of DefId(0:6 ~ v4_bin_balance_tree[fc58]::{impl#0}::rot_left)
+2025-08-12T09:00:28.687Z INFO  [rustowlc::core::analyze] facts of DefId(0:6 ~ v4_bin_balance_tree[fc58]::{impl#0}::rot_left) prepared; start analyze of DefId(0:6 ~ v4_bin_balance_tree[fc58]::{impl#0}::rot_left)
+2025-08-12T09:00:28.688Z INFO  [rustowlc::core] borrow checked: 3 / 15
+2025-08-12T09:00:28.688Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-12T09:00:28.688Z INFO  [rustowlc::core] start borrowck of DefId(0:7 ~ v4_bin_balance_tree[fc58]::{impl#0}::rot_right)
+2025-08-12T09:00:28.688Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-12T09:00:28.689Z INFO  [rustowlc::core::analyze] facts of DefId(0:7 ~ v4_bin_balance_tree[fc58]::{impl#0}::rot_right) prepared; start analyze of DefId(0:7 ~ v4_bin_balance_tree[fc58]::{impl#0}::rot_right)
+2025-08-12T09:00:28.690Z INFO  [rustowlc::core] borrow checked: 4 / 15
+2025-08-12T09:00:28.690Z INFO  [rustowlc::core] start borrowck of DefId(0:10 ~ v4_bin_balance_tree[fc58]::{impl#1}::new)
+2025-08-12T09:00:28.690Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-12T09:00:28.690Z INFO  [rustowlc::core::analyze] facts of DefId(0:10 ~ v4_bin_balance_tree[fc58]::{impl#1}::new) prepared; start analyze of DefId(0:10 ~ v4_bin_balance_tree[fc58]::{impl#1}::new)
+2025-08-12T09:00:28.690Z INFO  [rustowlc::core] borrow checked: 5 / 15
+2025-08-12T09:00:28.690Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-12T09:00:28.690Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-12T09:00:28.690Z INFO  [rustowlc::core] start borrowck of DefId(0:11 ~ v4_bin_balance_tree[fc58]::{impl#1}::height)
+2025-08-12T09:00:28.691Z INFO  [rustowlc::core::analyze] facts of DefId(0:11 ~ v4_bin_balance_tree[fc58]::{impl#1}::height) prepared; start analyze of DefId(0:11 ~ v4_bin_balance_tree[fc58]::{impl#1}::height)
+2025-08-12T09:00:28.691Z INFO  [rustowlc::core] borrow checked: 6 / 15
+2025-08-12T09:00:28.691Z INFO  [rustowlc::core] start borrowck of DefId(0:12 ~ v4_bin_balance_tree[fc58]::{impl#1}::set_height)
+2025-08-12T09:00:28.691Z INFO  [rustowlc::core::analyze] facts of DefId(0:12 ~ v4_bin_balance_tree[fc58]::{impl#1}::set_height) prepared; start analyze of DefId(0:12 ~ v4_bin_balance_tree[fc58]::{impl#1}::set_height)
+2025-08-12T09:00:28.691Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-12T09:00:28.691Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-12T09:00:28.692Z INFO  [rustowlc::core] borrow checked: 7 / 15
+2025-08-12T09:00:28.692Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-12T09:00:28.692Z INFO  [rustowlc::core] start borrowck of DefId(0:13 ~ v4_bin_balance_tree[fc58]::{impl#1}::rot_left)
+2025-08-12T09:00:28.692Z INFO  [rustowlc::core] start borrowck of DefId(0:14 ~ v4_bin_balance_tree[fc58]::{impl#1}::rot_left::{closure#0})
+2025-08-12T09:00:28.692Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-12T09:00:28.692Z INFO  [rustowlc::core::analyze] facts of DefId(0:14 ~ v4_bin_balance_tree[fc58]::{impl#1}::rot_left::{closure#0}) prepared; start analyze of DefId(0:14 ~ v4_bin_balance_tree[fc58]::{impl#1}::rot_left::{closure#0})
+2025-08-12T09:00:28.692Z INFO  [rustowlc::core] borrow checked: 8 / 15
+2025-08-12T09:00:28.692Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-12T09:00:28.692Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-12T09:00:28.692Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-12T09:00:28.692Z INFO  [rustowlc::core::analyze] facts of DefId(0:13 ~ v4_bin_balance_tree[fc58]::{impl#1}::rot_left) prepared; start analyze of DefId(0:13 ~ v4_bin_balance_tree[fc58]::{impl#1}::rot_left)
+2025-08-12T09:00:28.693Z INFO  [rustowlc::core] borrow checked: 9 / 15
+2025-08-12T09:00:28.693Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-12T09:00:28.693Z INFO  [rustowlc::core] start borrowck of DefId(0:15 ~ v4_bin_balance_tree[fc58]::{impl#1}::rot_right)
+2025-08-12T09:00:28.693Z INFO  [rustowlc::core] start borrowck of DefId(0:16 ~ v4_bin_balance_tree[fc58]::{impl#1}::rot_right::{closure#0})
+2025-08-12T09:00:28.693Z INFO  [rustowlc::core::analyze] facts of DefId(0:16 ~ v4_bin_balance_tree[fc58]::{impl#1}::rot_right::{closure#0}) prepared; start analyze of DefId(0:16 ~ v4_bin_balance_tree[fc58]::{impl#1}::rot_right::{closure#0})
+2025-08-12T09:00:28.693Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-12T09:00:28.693Z INFO  [rustowlc::core] borrow checked: 10 / 15
+2025-08-12T09:00:28.693Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-12T09:00:28.693Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-12T09:00:28.693Z INFO  [rustowlc::core::analyze] facts of DefId(0:15 ~ v4_bin_balance_tree[fc58]::{impl#1}::rot_right) prepared; start analyze of DefId(0:15 ~ v4_bin_balance_tree[fc58]::{impl#1}::rot_right)
+2025-08-12T09:00:28.693Z INFO  [rustowlc::core] borrow checked: 11 / 15
+2025-08-12T09:00:28.693Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-12T09:00:28.694Z INFO  [rustowlc::core] start borrowck of DefId(0:19 ~ v4_bin_balance_tree[fc58]::{impl#2}::add_sorted)
+2025-08-12T09:00:28.694Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-12T09:00:28.694Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-12T09:00:28.697Z INFO  [rustowlc::core::analyze] facts of DefId(0:19 ~ v4_bin_balance_tree[fc58]::{impl#2}::add_sorted) prepared; start analyze of DefId(0:19 ~ v4_bin_balance_tree[fc58]::{impl#2}::add_sorted)
+2025-08-12T09:00:28.699Z INFO  [rustowlc::core] borrow checked: 12 / 15
+2025-08-12T09:00:28.699Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-12T09:00:28.699Z INFO  [rustowlc::core] start borrowck of DefId(0:22 ~ v4_bin_balance_tree[fc58]::{impl#3}::print_left_first)
+2025-08-12T09:00:28.703Z INFO  [rustowlc::core::analyze] facts of DefId(0:22 ~ v4_bin_balance_tree[fc58]::{impl#3}::print_left_first) prepared; start analyze of DefId(0:22 ~ v4_bin_balance_tree[fc58]::{impl#3}::print_left_first)
+2025-08-12T09:00:28.705Z INFO  [rustowlc::core] borrow checked: 13 / 15
+2025-08-12T09:00:28.705Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-12T09:00:28.705Z INFO  [rustowlc::core] start borrowck of DefId(0:23 ~ v4_bin_balance_tree[fc58]::main)
+2025-08-12T09:00:28.706Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-12T09:00:28.706Z INFO  [rustowlc::core::analyze] facts of DefId(0:23 ~ v4_bin_balance_tree[fc58]::main) prepared; start analyze of DefId(0:23 ~ v4_bin_balance_tree[fc58]::main)
+2025-08-12T09:00:28.707Z INFO  [rustowlc::core] borrow checked: 14 / 15
+2025-08-12T09:00:28.707Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-12T09:00:28.707Z INFO  [rustowlc::core] start borrowck of DefId(0:40 ~ v4_bin_balance_tree[fc58]::main#1)
+2025-08-12T09:00:28.707Z INFO  [rustowlc::core::analyze] facts of DefId(0:40 ~ v4_bin_balance_tree[fc58]::main#1) prepared; start analyze of DefId(0:40 ~ v4_bin_balance_tree[fc58]::main#1)
+2025-08-12T09:00:28.707Z INFO  [rustowlc::core] borrow checked: 15 / 15
+2025-08-12T09:00:28.708Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-08-12T09:00:28.708Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-12T09:00:28.709Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-12T09:00:28.710Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v4-bin_balance_tree/src/main.rs
+2025-08-12T09:00:28.714Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-08-12T09:00:28.716Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v4-bin_balance_tree/src/main.rs
+2025-08-12T09:00:28.716Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v4-bin_balance_tree/src/main.rs
+2025-08-12T09:00:28.722Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v4-bin_balance_tree/src/main.rs
+2025-08-12T09:00:28.722Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v4-bin_balance_tree/src/main.rs
+2025-08-12T09:00:28.725Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v4-bin_balance_tree/src/main.rs
+2025-08-12T09:00:28.726Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v4-bin_balance_tree/src/main.rs
+2025-08-12T09:00:28.727Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v4-bin_balance_tree/src/main.rs
+2025-08-12T09:00:28.727Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v4-bin_balance_tree/src/main.rs
+2025-08-12T09:00:28.728Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v4-bin_balance_tree/src/main.rs
+2025-08-12T09:00:28.736Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v4-bin_balance_tree/src/main.rs
+2025-08-12T09:00:28.760Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v4-bin_balance_tree/src/main.rs
+2025-08-12T09:00:28.760Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v4-bin_balance_tree/src/main.rs
+2025-08-12T09:00:28.771Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v4-bin_balance_tree/src/main.rs
+2025-08-12T09:00:28.809Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/s2-linked_list_and_binary_tree/v4-bin_balance_tree/src/main.rs

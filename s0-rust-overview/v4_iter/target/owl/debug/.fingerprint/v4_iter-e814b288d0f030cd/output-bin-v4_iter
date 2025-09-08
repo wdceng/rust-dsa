@@ -1,0 +1,12 @@
+2025-07-17T20:33:48.431Z INFO  [rustowlc::core] start borrowck of DefId(0:9 ~ v4_iter[b355]::{impl#0}::next)
+2025-07-17T20:33:48.432Z INFO  [rustowlc::core::analyze] facts of DefId(0:9 ~ v4_iter[b355]::{impl#0}::next) prepared; start analyze of DefId(0:9 ~ v4_iter[b355]::{impl#0}::next)
+2025-07-17T20:33:48.432Z INFO  [rustowlc::core] borrow checked: 1 / 2
+2025-07-17T20:33:48.432Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-17T20:33:48.433Z INFO  [rustowlc::core] start borrowck of DefId(0:10 ~ v4_iter[b355]::main)
+2025-07-17T20:33:48.433Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-17T20:33:48.464Z INFO  [rustowlc::core::analyze] facts of DefId(0:10 ~ v4_iter[b355]::main) prepared; start analyze of DefId(0:10 ~ v4_iter[b355]::main)
+2025-07-17T20:33:48.465Z INFO  [rustowlc::core] borrow checked: 2 / 2
+2025-07-17T20:33:48.465Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-07-17T20:33:48.468Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/my_code/v4_iter/src/main.rs
+2025-07-17T20:33:48.539Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-07-17T20:33:48.555Z INFO  [rustowlc::core] analyzed one item of /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/dsa/my_code/v4_iter/src/main.rs
