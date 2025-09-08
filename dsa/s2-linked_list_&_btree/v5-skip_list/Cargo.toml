@@ -1,0 +1,8 @@
+[package]
+name = "v5-skip_list"
+version = "0.1.0"
+edition = "2024"
+# edition = "2018"
+
+[dependencies]
+rand = "0.9.2"
