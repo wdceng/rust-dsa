@@ -1,6 +1,6 @@
 use core::fmt;
-use std::collections::HashMap;
-use std::fmt::write;
+use std::collections::{HashMap, HashSet};
+use std::fs::create_dir;
 use std::hash::Hash;
 use std::rc::Rc;
 
@@ -113,6 +113,65 @@ impl<T, E, ID: Clone + Hash + Eq> Graph<T, E, ID> {
         // Add `ed_id` to the adjacency list of node `from`, panicking if `from` is missing
         self.data.get_mut(&from).unwrap().1.push(ed_id);
         Ok(())
+    }
+}
+
+impl<T, E: Weighted, ID: Clone + Hash + Eq> Graph<T, E, ID> {
+    // Find the shortest path from `from` to `to`, returning an Rc<Route> if one exists
+    pub fn shortest_path(&self, from: ID, to: ID) -> Option<Rc<Route<ID>>> {
+        // Keep track of visited node IDs to avoid revisiting
+        let mut visited = HashSet::new();
+        // Candidate paths to explore
+        let mut routes = Vec::new();
+        // Start with a route beginning at `from`
+        routes.push(Route::start_rc(from));
+        // Main search loop
+        loop {
+            // Take the next route to explore (or return None if no more)
+            let c_route = routes.pop()?;
+            // If we've reached the target node, return the current route
+            if to == c_route.pos {
+                return Some(c_route);
+            }
+            // Skip if we've already visited this node
+            if visited.contains(&c_route.pos) {
+                // No point in searching from the same place twice
+                continue;
+            }
+            // Mark the current node as visited
+            visited.insert(c_route.pos.clone());
+
+            // Get the node data for the current route position (return None if missing)
+            let exist = self.data.get(&c_route.pos)?;
+            // Iterate over all edge IDs connected to this node
+            for eid in &exist.1 {
+                // Look up the edge details by its ID (return None if missing)
+                let edge = self.edges.get(eid)?;
+                // Determine the neighbor node: if edge.1 is current pos, use edge.2, else use edge.1
+                let npos = if edge.1 == c_route.pos {
+                    // Choose the opposite side of the edge from the current position
+                    edge.2.clone()
+                } else {
+                    edge.1.clone()
+                };
+                // Compute the new path length as current length plus this edge’s weight
+                let nlen = c_route.len + edge.0.weight();
+                // Create a new Route pointing to the neighbor, with updated length and path back to current route
+                let nroute = Rc::new(Route {
+                    pos: npos,
+                    len: nlen,
+                    path: Some(c_route.clone()), // clone Rc to increase reference count
+                });
+                // Insert this new route into the candidate list in sorted order
+                let mut iafter = routes.len() - 1;
+                loop {
+                    if routes[iafter].len > nlen {
+                        // Lowest element last
+                        routes.insert(iafter + 1, nroute);
+                    }
+                }
+            }
+        }
     }
 }
 
