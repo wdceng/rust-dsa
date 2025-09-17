@@ -1,6 +1,5 @@
 use core::fmt;
 use std::collections::{HashMap, HashSet};
-use std::fs::create_dir;
 use std::hash::Hash;
 use std::rc::Rc;
 
@@ -15,6 +14,12 @@ impl GraphErr {
         GraphErr {
             mess: s.to_string(),
         }
+    }
+}
+
+impl std::fmt::Display for GraphErr {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        write!(f, "{}", self.mess)   // <-- now the field is actually *read*
     }
 }
 
@@ -162,13 +167,24 @@ impl<T, E: Weighted, ID: Clone + Hash + Eq> Graph<T, E, ID> {
                     len: nlen,
                     path: Some(c_route.clone()), // clone Rc to increase reference count
                 });
+                if routes.len() == 0 {
+                    routes.push(nroute);
+                    continue;
+                }
                 // Insert this new route into the candidate list in sorted order
                 let mut iafter = routes.len() - 1;
                 loop {
                     if routes[iafter].len > nlen {
-                        // Lowest element last
+                        // Lowest element last 
                         routes.insert(iafter + 1, nroute);
+                        break;
                     }
+                    if iafter == 0 {
+                        // Reached end
+                        routes.insert(0, nroute);
+                        break;
+                    }
+                    iafter -= 1;
                 }
             }
         }
@@ -193,5 +209,9 @@ fn main() -> Result<(), GraphErr> {
     g.add_edge('j', 'C', 'E', 12)?;
 
     println!("Hello, graph {:?}", g);
+
+    println!("Shortest path A-D = {}", g.shortest_path('A', 'D').unwrap());
+    println!("Shortest path H-B = {}", g.shortest_path('H', 'B').unwrap());
+
     Ok(())
 }
